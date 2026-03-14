@@ -42,6 +42,7 @@ Developed by:Rahul Krishna RegisterNumber:212223040162 */
 
 **RTL realization**
 
+
 **Output:**
 
 **RTL**
