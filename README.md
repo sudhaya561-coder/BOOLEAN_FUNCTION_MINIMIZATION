@@ -41,9 +41,9 @@ RegisterNumber:212225230287
 ~~~ python
 module new_de(
   input A,B,C,D,
-  output F
+  output X
 );
-assign F =(~A & ~B & ~C & ~D)|
+assign X =(~A & ~B & ~C & ~D)|
           (A & ~C & ~D)|
           (~B & C & ~D)|
           (~A & B & C & D)|
@@ -58,6 +58,7 @@ endmodule
 **RTL**
 
 **Timing Diagram**
+![Screenshot 2024-04-03 095947](https://github.com/RahulKrishna05/BOOLEAN_FUNCTION_MINIMIZATION/assets/162027231/0a954f03-bc3b-4072-abe4-629274192fa3)
 
 **Result:**
 
