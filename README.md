@@ -35,9 +35,21 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: S.UDHAYA
+RegisterNumber:212225230287
 
-
+~~~ python
+module new_de(
+  input A,B,C,D,
+  output F
+);
+assign F =(~A & ~B & ~C & ~D)|
+          (A & ~C & ~D)|
+          (~B & C & ~D)|
+          (~A & B & C & D)|
+          (B & `C & D):
+endmodule
+~~~
 **RTL realization**
 
 **Output:**
