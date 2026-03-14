@@ -53,6 +53,7 @@ endmodule
 **RTL realization**
 
 **Output:**
+![Screenshot 2024-04-03 095914](https://github.com/RahulKrishna05/BOOLEAN_FUNCTION_MINIMIZATION/assets/162027231/4933ff88-df8f-4dd9-88ec-8089668582c6)
 
 **RTL**
 
