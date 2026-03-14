@@ -41,9 +41,9 @@ RegisterNumber:212225230287
 ~~~ python
 module new_de(
   input A,B,C,D,
-  output X
+  output F
 );
-assign X =(~A & ~B & ~C & ~D)|
+assign F =(~A & ~B & ~C & ~D)|
           (A & ~C & ~D)|
           (~B & C & ~D)|
           (~A & B & C & D)|
@@ -51,16 +51,13 @@ assign X =(~A & ~B & ~C & ~D)|
 endmodule
 ~~~
 **RTL realization**
-
+**RTL**
 **Output:**
 ![Screenshot 2024-04-03 095914](https://github.com/RahulKrishna05/BOOLEAN_FUNCTION_MINIMIZATION/assets/162027231/4933ff88-df8f-4dd9-88ec-8089668582c6)
-
-**RTL**
 
 **Timing Diagram**
 ![Screenshot 2024-04-03 095947](https://github.com/RahulKrishna05/BOOLEAN_FUNCTION_MINIMIZATION/assets/162027231/0a954f03-bc3b-4072-abe4-629274192fa3)
 
 **Result:**
-
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
